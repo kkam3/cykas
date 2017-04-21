@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cykas - Usługi</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/logo16.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="info-bar">
+			<div class="wrapper">
+				<div class="info-bar-field">FHU CYKAS</div>
+				<div class="info-bar-field">TRANSPORT</div>
+				<div class="info-bar-field">LODOWA 104</div>
+				<div class="info-bar-field">93-232 ŁÓDŹ</div>
+				<div class="info-bar-field">KONTAKT@CYKAS.EU</div>
+				<div class="info-bar-field">
+					<a href="service.html"><img src="assets/poland.svg"></a>
+					<img class="img-active" src="assets/united-kingdom.svg">
+				</div>
+			</div>
+		</div>
+		<div class="menu-bg">
+			<div class="wrapper">
+				<div class="main-logo"><a href="index_en.html"><img src="assets/cykas-logo.png"></a></div>
+				<div class="menu-trigger">MENU</div>
+				<nav class="menu-bar">
+					<ul>
+						<li class="menu-btn"><a href="index_en.html">MAIN PAGE</a></li>
+						<li class="menu-btn"><a href="history_en.html">HISTORY</a></li>
+						<li class="menu-btn"><a href="service_en.html">SERVICE</a></li>
+						<li class="menu-btn"><a href="stock_en.html">STOCK</a></li>
+						<li class="menu-btn"><a href="contact_en.html">CONTACT</a></li>
+						<!-- <li class="menu-btn"><a href="work.html">JOB OFFERS</a></li> -->
+						<li class="menu-btn"><a href="camper_en.html">CAMPER</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="bg-section">
+	<div class="with-background" style="background-image: url(assets/DSC_0102.jpg);">
+		<div class="overlay">
+			<div class="wrapper">
+				<h1>For you we carry about the quality of transport.<br>We are:</h1>
+				<p>repacking plants from CC trolleys to distribution or to cardboard packaging</p> 
+				<p>producing and packing</p> 
+				<p>transporting with trucks or delivery vans</p> 
+				<p>transporting seedlings from Polish to Danish horticulturists</p>
+				<p>offering complex and professional process of transport </p>
+				<iframe id="area" src="https://www.google.com/maps/d/embed?mid=1c7_aZhR04tM6Xby5DiQ37iEJnSI" width="100%" height="480"></iframe>
+				<h2>Currently our main destinations are Denmark, the Netherlands, Germany, Chech Republic and Slovakia. We also carry transport around Poland.</h2>
+				<div class="doc-buttons">
+					<a href="contact_en.html"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">Contact</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer-bar">
+	<div class="wrapper">
+		<div class="lang-icons">
+			<a href="service.html"><img src="assets/poland.svg"></a>
+			<img class="img-active" src="assets/united-kingdom.svg">
+		</div>
+		<div class="footer-bar-field">© CYKAS 2017</div>
+		<div class="footer-bar-field">design & realization - <a href="http://kkam3.github.io/">Klaudia Greif</a></div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		if ($(window).width() < 1020) {
+			$(".menu-bar").hide();
+		}
+		$(".menu-trigger").click(function() {
+			$('nav').slideToggle();
+		});
+	});
+</script>
+
+</body>
+</html>

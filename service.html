@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cykas - Usługi</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/logo16.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="info-bar">
+			<div class="wrapper">
+				<div class="info-bar-field">FHU CYKAS</div>
+				<div class="info-bar-field">TRANSPORT</div>
+				<div class="info-bar-field">LODOWA 104</div>
+				<div class="info-bar-field">93-232 ŁÓDŹ</div>
+				<div class="info-bar-field">KONTAKT@CYKAS.EU</div>
+				<div class="info-bar-field">
+					<img class="img-active" src="assets/poland.svg">
+					<a href="service_en.html"><img src="assets/united-kingdom.svg"></a>
+				</div>
+			</div>
+		</div>
+		<div class="menu-bg">
+			<div class="wrapper">
+				<div class="main-logo"><a href="index.html"><img src="assets/cykas-logo.png"></a></div>
+				<div class="menu-trigger">MENU</div>
+				<nav class="menu-bar">
+					<ul>
+						<li class="menu-btn"><a href="index.html">STRONA GŁÓWNA</a></li>
+						<li class="menu-btn"><a href="history.html">HISTORIA</a></li>
+						<li class="menu-btn"><a href="service.html">USŁUGI</a></li>
+						<li class="menu-btn"><a href="stock.html">TABOR</a></li>
+						<li class="menu-btn"><a href="contact.html">KONTAKT</a></li>
+						<!-- <li class="menu-btn"><a href="work.html">OFERTY PRACY</a></li> -->
+						<li class="menu-btn"><a href="camper.html">KAMPER</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="bg-section">
+	<div class="with-background" style="background-image: url(assets/DSC_0102.jpg);">
+		<div class="overlay">
+			<div class="wrapper">
+				<h1>Dla Ciebie dbamy o jakość transportu. A dokładnie:</h1>
+				<p>przepakowujemy rośliny z wózków CC do dystrybucji sklepowej, z wózków CC do opakowań kartonowych i w nich na palety</p> 
+				<p>konfekcjonujemy</p> 
+				<p> transportujemy transportem ciężarowym oraz dostawczym (dostawczymi dla mniejszych zleceń, ciężarowymi na centralne magazyny)</p> 
+				<p>transportujemy sadzonki od ogrodników z Polski do Danii</p>
+				<p>obsługujemy kompleksowo cały przebieg transportu</p>
+				<iframe id="area" src="https://www.google.com/maps/d/embed?mid=1c7_aZhR04tM6Xby5DiQ37iEJnSI" width="100%" height="480"></iframe>
+				<h2>Obecnie naszym głównym celem jest Dania, Holandia, Niemcy, Czechy, Słowacja. Wykonujemy usługi transportowe również na terenie naszego kraju.</h2>
+				<div class="doc-buttons">
+					<a href="contact.html"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">Kontakt</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer-bar">
+	<div class="wrapper">
+		<div class="lang-icons">
+			<img class="img-active" src="assets/poland.svg">
+			<a href="service_en.html"><img src="assets/united-kingdom.svg"></a>
+		</div>
+		<div class="footer-bar-field">© CYKAS 2017</div>
+		<div class="footer-bar-field">design & realization - <a href="http://kkam3.github.io/">Klaudia Greif</a></div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		if ($(window).width() < 1020) {
+			$(".menu-bar").hide();
+		}
+		$(".menu-trigger").click(function() {
+			$('nav').slideToggle();
+		});
+	});
+</script>
+
+</body>
+</html>

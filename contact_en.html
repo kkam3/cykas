@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cykas - Kontakt</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/logo16.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="info-bar">
+			<div class="wrapper">
+				<div class="info-bar-field">FHU CYKAS</div>
+				<div class="info-bar-field">TRANSPORT</div>
+				<div class="info-bar-field">LODOWA 104</div>
+				<div class="info-bar-field">93-232 ŁÓDŹ</div>
+				<div class="info-bar-field">KONTAKT@CYKAS.EU</div>
+				<div class="info-bar-field">
+					<a href="contact.html"><img src="assets/poland.svg"></a>
+					<img class="img-active" src="assets/united-kingdom.svg">
+				</div>
+			</div>
+		</div>
+		<div class="menu-bg">
+			<div class="wrapper">
+				<div class="main-logo"><a href="index_en.html"><img src="assets/cykas-logo.png"></a></div>
+				<div class="menu-trigger">MENU</div>
+				<nav class="menu-bar">
+					<ul>
+						<li class="menu-btn"><a href="index_en.html">MAIN PAGE</a></li>
+						<li class="menu-btn"><a href="history_en.html">HISTORY</a></li>
+						<li class="menu-btn"><a href="service_en.html">SERVICE</a></li>
+						<li class="menu-btn"><a href="stock_en.html">STOCK</a></li>
+						<li class="menu-btn"><a href="contact_en.html">CONTACT</a></li>
+						<!-- <li class="menu-btn"><a href="work.html">JOB OFFERS</a></li> -->
+						<li class="menu-btn"><a href="camper_en.html">CAMPER</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="bg-section">
+	<div class="with-background" style="background-image: url(assets/bg-3.jpg);">
+		<div class="overlay">
+
+			<div class="wrapper">
+				<h1 style="text-align: center; margin-bottom: 5px;">CONTACT - MANAGEMENT</h1>
+
+				<div class="contact-data">
+					<!--<img src="assets/man.jpg">
+					<div>-->
+						<h2>Tomasz Krajewski</h2>
+						<a href="tel:+48501785843"><p>+48 501 785 843</p></a>
+						<a href="mailto:tomasz@cykas.eu?Subject=Witam," target="_top"><p>tomasz@cykas.eu</p></a>
+					<!--</div>-->
+				</div>
+
+				<div class="contact-data">
+					<!--<img src="assets/krzysztof.jpg">
+					<div>-->
+						<h2>Krzysztof Głowiński</h2>
+						<a href="tel:+48501785984"><p>+48 501 785 984</p></a>
+						<a href="mailto:krzysztof@cykas.eu?Subject=Witam," target="_top"><p>krzysztof@cykas.eu</p></a>
+					<!--</div>-->
+				</div>
+				
+				<div class="contact-data">
+					<!--<img src="assets/man.jpg">
+					<div>-->
+						<h2>Marek Głowiński</h2>
+						<a href="mailto:marek@cykas.eu?Subject=Witam," target="_top"><p>marek@cykas.eu</p></a>
+					<!--</div>-->
+				</div>
+			</div>
+
+			<div>
+				<h1 style="text-align: center; margin-bottom: 5px;">CONTACT - ENGLISH CONSULTANT</h1>
+
+				<div class="contact-data">
+					<h2>Jacek Kabelis</h2>
+					<a href="tel:+48512808024"><p>+48 512 808 024</p></a>
+					<a href="mailto:jk@cykas.eu?Subject=Witam," target="_top"><p>jk@cykas.eu</p></a>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+<div class="without-background">
+	<div class="wrapper">
+		<div class="bg-color" style="text-align: center;">
+			<h1>Dane</h1>
+			<p style="font-weight: 500;">FHU CYKAS KRZYSZTOF GŁOWIŃSKI</p>
+			<p>Lodowa 104</p>
+			<p>93-232 Łódź</p>
+			<p>NIP: 729-152-64-59</p>
+			<p>REGON: 471605304</p>
+			<p>kontakt@cykas.eu</p>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2471.008106412838!2d19.52359491553729!3d51.73288707967277!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471a33418c8866a7%3A0xece6f490988a7534!2sF.H.U.+Cykas!5e0!3m2!1spl!2spl!4v1488541626469" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+		</div>
+	</div>
+</div>
+
+
+<div class="footer-bar">
+	<div class="wrapper">
+		<div class="lang-icons">
+			<a href="contact.html"><img src="assets/poland.svg"></a>
+			<img class="img-active" src="assets/united-kingdom.svg">
+		</div>
+		<div class="footer-bar-field">© CYKAS 2017</div>
+		<div class="footer-bar-field">design & realization - <a href="http://kkam3.github.io/">Klaudia Greif</a></div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		if ($(window).width() < 1020) {
+			$(".menu-bar").hide();
+		}
+		$(".menu-trigger").click(function() {
+			$('nav').slideToggle();
+		});
+	});
+</script>
+
+</body>
+</html>

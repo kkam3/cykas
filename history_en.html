@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cykas - Historia</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/logo16.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="info-bar">
+			<div class="wrapper">
+				<div class="info-bar-field">FHU CYKAS</div>
+				<div class="info-bar-field">TRANSPORT</div>
+				<div class="info-bar-field">LODOWA 104</div>
+				<div class="info-bar-field">93-232 ŁÓDŹ</div>
+				<div class="info-bar-field">KONTAKT@CYKAS.EU</div>
+				<div class="info-bar-field">
+					<a href="history.html"><img src="assets/poland.svg"></a>
+					<img class="img-active" src="assets/united-kingdom.svg">
+				</div>
+			</div>
+		</div>
+		<div class="menu-bg">
+			<div class="wrapper">
+				<div class="main-logo"><a href="index_en.html"><img src="assets/cykas-logo.png"></a></div>
+				<div class="menu-trigger">MENU</div>
+				<nav class="menu-bar">
+					<ul>
+						<li class="menu-btn"><a href="index_en.html">MAIN PAGE</a></li>
+						<li class="menu-btn"><a href="history_en.html">HISTORY</a></li>
+						<li class="menu-btn"><a href="service_en.html">SERVICE</a></li>
+						<li class="menu-btn"><a href="stock_en.html">STOCK</a></li>
+						<li class="menu-btn"><a href="contact_en.html">CONTACT</a></li>
+						<!-- <li class="menu-btn"><a href="work.html">JOB OFFERS</a></li> -->
+						<li class="menu-btn"><a href="camper.html">CAMPER</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="bg-section">
+	<div class="with-background" style="background-image: url(assets/DSC_0116.jpg);">
+		<div class="overlay">
+			<div class="wrapper">
+				<p>We transport for you for almost 20 years. To be precise, since October 1, 1997. We had our ups and downs, but one thing is certain - everything, what happened to us as a company made CYKAS strong and prosperous company.</p>
+				<h2>Quality, solidity, trust - CYKAS Transport and Logistics</h2>
+				<p>At the very beginning we were working as a trading company with one owner and two workers. In the course of time and company's development this structure has changed and till now the new management board consists of one owner and two business associates.</p>
+				<div class="doc-buttons">
+					<a href="contact_en.html"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">Contact</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="without-background">
+	<div class="wrapper">
+		<h1>What would have happened, if not the flowers...</h1>
+		<p>In the beginning we dealed only with trade and transport for the companies delivering potted plants and cut flowers from the Netherlands - this was what CYKAS' existance was based on. Till 2001 we hadn't had neither delivery vans nor trucks. Our whole transport was based on the stock rent from Dutch comapnies.</p>
+		<h2>2001 - breakthrough</h2>
+		<p> This was the year we obtained first license allowing us to provide transport services on international market. Since this time we focused more on transport than on trade.</p>
+		<p>We started to broaden our area of activity and Denmark became our new main goal. The more orders we had the greater was the need for buying our own trucks. And we did so - we bought first one in 2001, then second in 2002... till we noticed that we need more people to work. We decided to expand our company.</p>
+		<div class="bg-color" style="text-align: center;"><img src="assets/IMG_7777.jpg" style="max-width: 600px; width: 100%;"></div>
+	</div>
+</div>
+
+<div class="bg-section">
+	<div class="with-background" style="background-image: url(assets/DSC_0012.jpg);">
+		<div class="overlay">
+			<div class="wrapper">
+				<h2>Crises appear everywhere, we managed to deal with them.</h2>
+				<p>Since 2002 we did transport regularly, twice a week. In 2010 we had to face with real problems. Fortunately, they didn't last so long - Gasa Group Company broadened its activity significantly and CYKAS, as their main transporter, increased number of shipment. Thanks to Gasa Group we carry transport for stores like Kaufland and Auchan.</p>
+				<div class="doc-buttons">
+					<a href="contact_en.html"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">Contact</div></a>
+				</div>
+				<h2>Currently our main destinations are Denmark, the Netherlands, Germany, Chech Republic and Slovakia. We also carry transport around Poland.</h2>
+				<div class="doc-buttons">
+					<a href="doc/licencja.pdf" target="_blank"><div class="doc-btn"  style="font-size: 1.2em; background-color: #fff;">License 1</div></a>
+					<a href="doc/licencja-T.pdf" target="_blank"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">License 2</div></a>
+					<a href="doc/certyfikat.pdf" target="_blank"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">Certificate</div></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="footer-bar">
+	<div class="wrapper">
+		<div class="lang-icons">
+			<a href="history.html"><img src="assets/poland.svg"></a>
+			<img class="img-active" src="assets/united-kingdom.svg">
+		</div>
+		<div class="footer-bar-field">© CYKAS 2017</div>
+		<div class="footer-bar-field">design & realization - <a href="http://kkam3.github.io/">Klaudia Greif</a></div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		if ($(window).width() < 1020) {
+			$(".menu-bar").hide();
+		}
+		$(".menu-trigger").click(function() {
+			$('nav').slideToggle();
+		});
+	});
+</script>
+
+</body>
+</html>

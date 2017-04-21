@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cykas - Tabor</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="assets/logo16.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500" rel="stylesheet">
+</head>
+<body>
+<header>
+	<div class="navbar">
+		<div class="info-bar">
+			<div class="wrapper">
+				<div class="info-bar-field">FHU CYKAS</div>
+				<div class="info-bar-field">TRANSPORT</div>
+				<div class="info-bar-field">LODOWA 104</div>
+				<div class="info-bar-field">93-232 ŁÓDŹ</div>
+				<div class="info-bar-field">KONTAKT@CYKAS.EU</div>
+				<div class="info-bar-field">
+					<a href="stock.html"><img src="assets/poland.svg"></a>
+					<img class="img-active" src="assets/united-kingdom.svg">
+				</div>
+			</div>
+		</div>
+		<div class="menu-bg">
+			<div class="wrapper">
+				<div class="main-logo"><a href="index_en.html"><img src="assets/cykas-logo.png"></a></div>
+				<div class="menu-trigger">MENU</div>
+				<nav class="menu-bar">
+					<ul>
+						<li class="menu-btn"><a href="index_en.html">MAIN PAGE</a></li>
+						<li class="menu-btn"><a href="history_en.html">HISTORY</a></li>
+						<li class="menu-btn"><a href="service_en.html">SERVICE</a></li>
+						<li class="menu-btn"><a href="stock_en.html">STOCK</a></li>
+						<li class="menu-btn"><a href="contact_en.html">CONTACT</a></li>
+						<!-- <li class="menu-btn"><a href="work.html">JOB OFFERS</a></li> -->
+						<li class="menu-btn"><a href="camper_en.html">CAMPER</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+</header>
+
+
+<div class="bg-section">
+	<div class="with-background" style="background-image: url(assets/DSC_0113.jpg);">
+		<div class="overlay">
+			<div class="wrapper">
+				<h1>OUR STOCK</h1>
+				<h2>What do we transport with?</h2>
+				<h2>We own many wehicles, including:</h2>
+				<h2>Volvo trucks</h2>
+				<h2>Isothermal semi-trailers with and aggregate (big enough to carry 43 CC trolleys)</h2>
+				<h2>delivery vans (Renault, Iveco)</h2>
+				<h2>Volvo tandem 48m long (26m of auto i 22m of truck trailer)</h2>
+				<br><h2>We also offer a camper to rent. If you are intrested read more in Polish language version:</h2>
+				<div class="doc-buttons">
+					<a href="camper.html"><div class="doc-btn" style="font-size: 1.2em; background-color: #fff;">Camper</div></a>
+				</div>
+			</div>
+
+			<div class="wrapper">
+				<div style="background-color: transparent;">
+					<div class="w3-content w3-display-container">
+						<div class="w3-display-container mySlides">
+						  <img src="assets/DSC_0000.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-display-container mySlides">
+						  <img src="assets/bg-2.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-display-container mySlides">
+						  <img src="assets/DSC_0003.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-display-container mySlides">
+						  <img src="assets/DSC_0007.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-display-container mySlides">
+						  <img src="assets/DSC_0034.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-display-container mySlides">
+						  <img src="assets/DSC_0032.jpg" style="width:100%">
+						</div>
+
+						<div class="w3-display-container mySlides">
+						  <img src="assets/DSC_0019.jpg" style="width:100%">
+						</div>
+
+						<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+						<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+						</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+
+
+<div class="footer-bar">
+	<div class="wrapper">
+		<div class="lang-icons">
+			<a href="stock.html"><img src="assets/poland.svg"></a>
+			<img class="img-active" src="assets/united-kingdom.svg">
+		</div>
+		<div class="footer-bar-field">© CYKAS 2017</div>
+		<div class="footer-bar-field">design & realization - <a href="http://kkam3.github.io/">Klaudia Greif</a></div>
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script>
+	$(document).ready(function() {
+		if ($(window).width() < 1020) {
+			$(".menu-bar").hide();
+		}
+		$(".menu-trigger").click(function() {
+			$('nav').slideToggle();
+		});
+	});
+</script>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>

@@ -319,7 +319,7 @@ body {
 }
 
 .with-background {
-	background: url("assets/bg-1.jpg") 50% 0 no-repeat fixed;
+	background: url("../assets/bg-1.jpg") 50% 0 no-repeat fixed;
 	background-size: cover;
 	height: auto;
 }

@@ -172,6 +172,10 @@ body {
     border-right: 2px solid #cc0000;
 }
 
+.menu-bar a {
+	text-decoration: none;
+}
+
 @media screen and (max-width: 1020px) {
 	.menu-bar {
 		float: none;
